@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -20,6 +21,12 @@ contributor:
   name: Tang, Rockwell
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- email: smkelley@bu.edu
+  name: Kelley, Shannon
+  schemaKey: Person
+- email: elong@bu.edu
+  name: Long, Emily
   schemaKey: Person
 dateCreated: '2025-07-21T15:50:34.266018+00:00'
 description: Transient stoppages of red blood cell (RBC) flow through capillaries—termed
@@ -39,6 +46,7 @@ description: Transient stoppages of red blood cell (RBC) flow through capillarie
   stalling capillary subpopulation, lasting 1 week post-stroke. Dynamic stall analysis
   therefore enables examination of physiological and methodological contributions
   to the stalls measured in disease models and across studies.
+ethicsApproval: []
 id: DANDI:001537/draft
 identifier: DANDI:001537
 license:
@@ -47,8 +55,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001537/versions/draft/assets/
 name: Capillaries susceptible to frequent stall dynamics revealed by comparing OCT
   and Bessel-2PM measurements
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001537/draft
 version: draft
+wasGeneratedBy: []
